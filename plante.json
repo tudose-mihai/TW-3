@@ -1,0 +1,32 @@
+[
+  {
+    "id": "712iir8r9u5q3ofvii3lk9lc1muqca8s",
+    "nume": "Busuioc",
+    "plantat": "primavara",
+    "cules": "vara"
+  },
+  {
+    "nume": "Ardei ",
+    "plantat": "toamna ",
+    "cules": "vara",
+    "id": "t157hau2okqwhebdyv7iw4tgugptvols"
+  },
+  {
+    "nume": "Ardei ",
+    "plantat": "toamna ",
+    "cules": "iarna",
+    "id": "wh4e1mtzu7bs0rl4ufjlwr774nvluqnk"
+  },
+  {
+    "nume": "Mazare",
+    "plantat": "iarna",
+    "cules": "toamna",
+    "id": "9f17lbvorl67k41ko8xxc2jqtcc6409f"
+  },
+  {
+    "nume": "Oregano",
+    "plantat": "iarna",
+    "cules": "toamna",
+    "id": "75s7l9uqnlg7q9r9a5sppniky8y9zcqw"
+  }
+]

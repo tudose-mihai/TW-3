@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghid de plantat</title>
+<link rel="stylesheet" href="styleMain.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+<body>
+<h1>
+    Ghid de plantat
+</h1>
+<ul id="navMenu">
+    <li>Home</li>
+    <li><a href="test.html">Test</a></li>
+    <li><a href="calendar.html">nivel 6, proiect 2; calendar</a></li>
+    <li><a href="joc.html">nivel 6, proiect 1; joc</a></li>
+
+
+</ul>
+
+<div id="main">
+    <table id="tabelPlante">
+        <tr>
+            <th>Nume</th>
+            <th>Plantare</th>
+            <th>Culegere</th>
+            <th>creion.jpg</th>
+        </tr>
+    </table>
+</div>
+<div id="buttons">
+    <button id="afisarePlante">Arata lista</button>
+<p>
+    <br>
+    Nume: <input id="subnume">
+    <br>
+    Se planteaza: <input id="subplant">
+    <br>
+    Se culeg: <input id="subcules">
+</p>
+    <button id="adaugaPlante">Adauga planta</button>
+
+</div>
+
+<div id="greeting">
+</div>
+<button id="loginButton" onclick="openForm()">LOGIN</button>
+<button id="cancelButton" onclick="closeForm()">CANCEL</button>
+
+<form id="loginForm" onsubmit="return false" name="form1">
+    <label>Username</label>
+    <input type="text" id="username" pattern="[^\W]*" required/>
+    <label>Email</label>
+    <input id="email"
+           pattern="^[a-zA-Z0-9!@#$%^&*(){}~-]+(\.[a-zA-Z0-9!@#$%^&*(){}~-]+)*@([a-z0-9]+([a-z0-9-]*)\.)+[a-zA-Z]+$"
+           required/>
+    <label>Password</label>
+    <input id="parola" type="password" pattern="(?=.*[a-z])(?=.*[0-9])(?=.*[A-Z])[a-zA-Z0-9]{10,}" required/>
+    <label >Ce preferi</label>
+
+
+    <input type="checkbox" id="box"/>
+    <label >Stari posibile</label>
+    <div id="alegeriRadio">
+
+    <input type="radio" class="radio">caine
+        <input type="radio" class="radio">pisica
+    </div>
+    <label>Sanse de ploaie azi</label>
+    <input id="range" required/>
+    <br>
+
+    <input type="button" id="submitForm"></input>
+</form>
+
+    <script src="script.js"></script>
+</body>
+</html>

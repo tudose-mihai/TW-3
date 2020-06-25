@@ -1,0 +1,117 @@
+body {
+    background-color: rgba( 0,60,10,0.6);
+    border-left-style: solid;
+
+}
+#navMenu{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-bottom: 12px;
+
+}
+
+#navMenu > *{
+    margin-left: 6px;
+    font-size: 24px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    padding: 8px;
+}
+
+* {
+    padding-left: 6px;
+    margin-left: 0px;
+}
+
+#main{
+    padding-left: 6px;
+}
+
+
+
+#tabelPlante {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+th{
+    border-right-style: solid;
+    border-right-width: thin;
+    border-right-color: black;
+    width: 110px;
+}
+td {
+    border-right-style: solid;
+    border-right-width: thin;
+    border-right-color: black;
+
+    margin-top:1px;
+    padding:5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    background-color: grey;
+    border-color: black;
+    border-radius: 12px;
+}
+
+#buttons
+{
+    margin-bottom: 20px;
+}
+
+#loginButton{
+    margin-top: 0px;
+
+    border-radius: 0px;
+    padding-left: 6px;
+    border-color: blue;
+    background-color: whitesmoke;
+}
+#cancelButton{
+    display: none;
+    border-radius: 0px;
+    padding-left: 6px;
+    margin-top: 0px;
+    border-color: blue;
+    background-color: whitesmoke;
+}
+#loginForm{
+    display: none;
+}
+#loginForm *{
+    width: 280px;
+    border-radius: 6px;
+    margin: 3px;
+}
+
+.holdsButtons{
+    display:flex;
+    flex-direction: row;
+}
+
+.editButton {
+    width: 50%;
+    border-radius: 0px;
+    background-color: white;
+
+}
+
+#alegeriRadio{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    border-style: solid;
+    padding: 12px;
+    width: 146px;
+}
+
+#subnume,#subplant,#subcules{
+    margin: 6px;
+}
+
+

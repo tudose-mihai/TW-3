@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleMain.css">
+
+    <title>Calendar</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        canvas {
+            background: rgba( 0,60,10,0.6);
+            display: block;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+<canvas id="calCanvas" width="900" height="550"></canvas>
+<div style="display:none;" id="calForm">
+    <p>
+        <br>
+        Titlu: <input id="titlu">
+        <br>
+        Descriere: <input id="descriere">
+        <br>
+        Importanta: <input id="importanta">
+    </p>
+    <button id="adaugaEvent">Adauga eveniment</button>
+</div>
+<script type="text/javascript"  src="script2.js" ></script>
+</body>
+</html>
