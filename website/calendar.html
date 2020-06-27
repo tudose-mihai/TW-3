@@ -15,23 +15,33 @@
             display: block;
             margin: 0;
         }
+
     </style>
 
 </head>
 <body>
 
-<canvas id="calCanvas" width="900" height="550"></canvas>
-<div style="display:none;" id="calForm">
+<canvas id="calCanvas" width="940" height="550"></canvas>
+<div  id="calForm">
     <p>
         <br>
         Titlu: <input id="titlu">
         <br>
         Descriere: <input id="descriere">
         <br>
-        Importanta: <input id="importanta">
+    <form id="importanta" style="display: flex; flex-direction: column">
+        <input type="radio" id="color1" name="color" value="red">
+            <label for="color1">Super important!!</label>
+        <input type="radio" id="color2" name="color" value="yellow">
+            <label for="color2">Important</label>
+        <input type="radio" id="color3" name="color" value="green">
+            <label for="color3">Normal</label>
+    </form>
     </p>
     <button id="adaugaEvent">Adauga eveniment</button>
 </div>
+<span id="measure" >Dummy text</span>
+
 <script type="text/javascript"  src="script2.js" ></script>
 </body>
 </html>

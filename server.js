@@ -14,7 +14,9 @@ app.use(express.static('website'));
 console.log("server is starting");
 const server = app.listen(3000, listening);
 
-
+// controllere
+// fisiere separate
+// get separat de post
 let data = fs.readFileSync('plante.json');
 let plante = JSON.parse(data);
 data = fs.readFileSync('users.json');
@@ -37,6 +39,8 @@ app.post('/addevent',(request, response)=>{
     }
    response.send(elements);
 });
+
+
 
 app.get('/plante',(req,res)=> res.send(plante));
 app.get('/testing', sendTest);

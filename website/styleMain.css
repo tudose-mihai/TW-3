@@ -114,4 +114,24 @@ button {
     margin: 6px;
 }
 
+#measure {
+    visibility: hidden; white-space: nowrap;
+    font-family: Arial,serif;
+    font-size: 16px;
+}
+
+#calForm{
+    border-style: solid;
+    border-color: darkgoldenrod;
+    border-radius: 15px;
+    display:none;
+    width: 400px;
+    padding: 12px;
+    margin: 8px;
+    justify-content: space-around;
+}
+
+#calForm *{
+    padding: 1px;
+}
 

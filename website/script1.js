@@ -192,7 +192,7 @@ function drawRandom() {
         else{
             if(visit%5===0)
             {
-                if (Math.random() > 0.6) {
+                if (Math.random() > 0.1) {
                     elements[0] = {
                         x: Math.random() * 600,
                         y: Math.random() * 600,
@@ -212,7 +212,7 @@ function drawRandom() {
             }
             else if(visit%5===2)
             {
-                if (Math.random() > 0.6) {
+                if (Math.random() > 0.1) {
                     elements[1] = {
                         x: Math.random() * 600,
                         y: Math.random() * 600,
@@ -232,7 +232,7 @@ function drawRandom() {
             }
             else if(visit%5===4)
             {
-                if (Math.random() > 0.8) {
+                if (Math.random() > 0.1) {
                     elements[2] = {
                         x: Math.random() * 600,
                         y: Math.random() * 600,
